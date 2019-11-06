@@ -83,7 +83,8 @@ class RecentChats extends StatelessWidget {
                           color: Colors.grey,
                           fontSize: 15.0,
                           fontWeight: FontWeight.bold,
-                        ),),
+                        ),
+                        ),
                         Container(
                           width: 40,
                           height: 20,

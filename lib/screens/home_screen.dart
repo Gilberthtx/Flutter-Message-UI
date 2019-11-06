@@ -12,6 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    //return Expanded(
     return Scaffold(
       backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
@@ -41,9 +42,9 @@ class _HomeScreenState extends State<HomeScreen> {
     ),
     body: Column( //Vertical scroll column of chats
       children: <Widget>[
-        //CategorySelector(),
+        //CategorySelector(), //Shows categories and allows to switch between them
         Container( // Vertical Row of chats with circular corners
-          height: 513.4, // TODO: change to be infinite scroll or size of phone window
+          height: 603.4, // 513.4 with category selector on, 603.4 without!!! TODO: change to be infinite scroll or size of phone window
           decoration: BoxDecoration(
             color: Theme.of(context).accentColor,
             borderRadius: BorderRadius.only(
